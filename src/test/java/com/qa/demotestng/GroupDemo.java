@@ -10,7 +10,7 @@ public class GroupDemo {
     	System.out.println("This is the starting point of the test");
     	//Initialize Chrome Driver
     	//driver.manage().timeouts().implicitlyWait(1,TimeUnit.SECONDS);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\dc\\Downloads\\geckodriver-v0.31.0-win64\\geckodriver.exe");
 
     	 driver = new ChromeDriver();
     	 driver.get("https://demoqa.com/");
